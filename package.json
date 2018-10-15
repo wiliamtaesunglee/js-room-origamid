@@ -1,0 +1,28 @@
+{
+  "name": "js-room",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiliamtaesunglee/js-room-origamid.git"
+  },
+  "keywords": [
+    "js",
+    "origamid"
+  ],
+  "author": "wiliam lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wiliamtaesunglee/js-room-origamid/issues"
+  },
+  "homepage": "https://github.com/wiliamtaesunglee/js-room-origamid#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1"
+  }
+}
