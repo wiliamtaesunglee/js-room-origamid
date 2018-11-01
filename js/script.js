@@ -24,7 +24,7 @@
     // const srcImg = img.getAttribute('alt');
     // console.log(srcImg);
 
-    menu.classList.add('teste');
+    // menu.classList.add('teste');
     
     
         
