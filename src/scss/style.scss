@@ -224,11 +224,11 @@ body {
     }
 }
 
-.js-tabcontent section {
+.js .js-tabcontent section {
     display: none;
 }
 
-.js-tabcontent section.ativo {
+.js .js-tabcontent section.ativo {
     display: block !important;
     animation: show .5s forwards;
 }
@@ -240,5 +240,25 @@ body {
     } to {
         opacity: 1;
         transform: translate3d(0, 0, 0)
+    }
+}
+
+.js .js-accordion {
+    
+    dd {
+        display: none;
+    &&.ativo {
+        display: block;
+    }
+    }
+    
+    dt::after {
+        content: '⤵';
+        margin-left: 10px;
+        
+    }
+
+    dt.ativo::after {
+        content: '⤴';
     }
 }
