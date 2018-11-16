@@ -1,3 +1,5 @@
+
+// animação aimais e texto dos animais
 function initTabNav() {
     const tabMenu = document.querySelectorAll('.js-tabmenu li');
     const tabContent = document.querySelectorAll('.js-tabcontent section');
@@ -24,6 +26,7 @@ function initTabNav() {
 
 initTabNav();
 
+// arrow show and hide 
 function initAccordion() {
     const accordionList = document.querySelectorAll('.js-accordion dt');
     const activeClass = ('ativo')
@@ -44,7 +47,7 @@ function initAccordion() {
     }
 }
 
-
+// animation links
 initAccordion();
 
 function initScrollSuave() {
@@ -76,6 +79,7 @@ function initScrollSuave() {
 
 initScrollSuave();
 
+// animation scroll
 function initAnimacaoScroll() {
     const sections = document.querySelectorAll('.js-scroll');
 
