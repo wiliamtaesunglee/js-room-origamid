@@ -11,12 +11,14 @@
         document.documentElement.className += ' js'
     </script>
 </head>
+<body>
+<div class="grid-container">
     <nav class="menu" data-menu="suave" id="animais">
         <ul>
             <li><a href="#animais">Animais</a></li>
             <li><a href="#faq">Faq</a></li>
             <li><a href="#contato">Contato</a></li>
-            <li><a href="https://www.origamid.com/">Dev -></a></li>
+            <li><a data-modal="abrir" href="login.html">Loguin -></a></li>
         </ul>
     </nav>
     <section class="grid-section animais" data-anime="scroll">
@@ -117,8 +119,23 @@
     <footer class="copy">
         <p>Todos os direitos reservados.</p>
     </footer>
+</div>
 
-<body>
+    <section class="modal-container" data-modal="container">
+        <div class="modal">
+            <button data-modal="fechar" class="fechar">X</button>
+                <form actioin="">
+                    <label for="email">E-mail</label>
+                    <input type="text" for="email" id="email">
+                    <label for="senha">Senha</label>
+                    <input type="password" for="senha" id="senha">
+                    <button type="submit">Entrar</button>
+                </form>
+            
+        </div>
+    </section>
+
+
     <script type="module" src="js/script.js"></script>
     
 </body>
