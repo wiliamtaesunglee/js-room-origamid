@@ -9,6 +9,11 @@
     display: block;
     animation: show-up .3s forwards;
   }
+  
+  &.active .dropdown-menu {
+    display: block;
+    animation: show-up .3s forwards;
+  }
 }
 
 @keyframes show-up {

@@ -401,6 +401,11 @@ body {
   animation: show-up .3s forwards;
 }
 
+[data-dropdown].active .dropdown-menu {
+  display: block;
+  animation: show-up .3s forwards;
+}
+
 @keyframes show-up {
   from {
     opacity: 0;
